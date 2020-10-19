@@ -1,3 +1,7 @@
+.App {
+  text-align: center;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -7,7 +11,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.sec-navigation {
+  width: 100%;
+  height: auto;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+}
+
+.sec-navigation nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.sec-navigation nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  width: 100%;
+}
+.sec-navigation nav ul li {
+  list-style-type: none;
+  margin-right: 5%;
 }

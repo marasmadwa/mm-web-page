@@ -1,10 +1,11 @@
-import React from 'react';
-import './App.css';
+import React, { useState } from 'react';
+import SectionNavigation from './components/section_navigaton';
 
 function App() {
+  const [number, setNumber] = useState(0);
 return (
-    <div className="App">
-      Hello World
+    <div className = "App">
+      <SectionNavigation/>
     </div>
   );
 }
